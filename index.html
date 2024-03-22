@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="updateHeader.js" defer></script>
+</head>
+<body id="fade-in" class="fade-in">
+    <header id="dynamic-header"></header>
+    <div id="website-container">
+        <div class="collections-toggle-container size-max">
+            <p>Selected Work</p>
+            <div class="toggle-container">
+                <button onclick="toggleGallery()">Gallery</button>
+                <button onclick="toggleIndex()">Index</button>
+            </div>
+        </div>
+        <div id="gallery-container">
+            <a href="a-penchant-for-reverie.html" class="collection-container">
+                <img src="assets/collections/A Penchant For Reverie/Untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>A Penchant for Reverie</p>
+                    <p>[6]</p>
+                </div>
+            </a>
+
+            <a href="aiyi.html" class="collection-container">
+                <img src="assets/collections/Aiyi/Untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Aiyi</p>
+                    <p>[3]</p>
+                </div>
+            </a>
+            <a href="aiyi-x-jasmine-amini.html" class="collection-container">
+                <img src="assets/collections/Aiyi x Jasmine Amini/untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Aiyi x Jasmine Amini</p>
+                    <p>[6]</p>
+                </div>
+            </a>
+            <a href="alyssa.html" class="collection-container">
+                <img src="assets/collections/Alyssa/Untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Alyssa</p>
+                    <p>[3]</p>
+                </div>
+            </a>
+            <a href="ariel.html" class="collection-container">
+                <img src="assets/collections/Ariel/Untitled.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Ariel</p>
+                    <p>[1]</p>
+                </div>
+            </a>
+            <a href="ashara.html" class="collection-container">
+                <img src="assets/collections/Ashara/Untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Ashara</p>
+                    <p>[4]</p>
+                </div>
+            </a>
+            <a href="bianca.html" class="collection-container">
+                <img src="assets/collections/Bianca/untitled.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Bianca</p>
+                    <p>[1]</p>
+                </div>
+            </a>
+            <a href="cake-magazine.html" class="collection-container">
+                <img src="assets/collections/Cake Magazine /untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Cake Magazine</p>
+                    <p>[8]</p>
+                </div>
+            </a>
+            <a href="contributor-magazine.html" class="collection-container">
+                <img src="assets/collections/Contributor Magazine/untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Contributor Magazine</p>
+                    <p>[4]</p>
+                </div>
+            </a>
+            <a href="danbi.html" class="collection-container">
+                <img src="assets/collections/Danbi/Danbi1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Danbi</p>
+                    <p>[9]</p>
+                </div>
+            </a>
+            <a href="daze-denim.html" class="collection-container">
+                <img src="assets/collections/Daze Denim/untitled5.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Daze Denim</p>
+                    <p>[4]</p>
+                </div>
+            </a>
+            <a href="justine.html" class="collection-container">
+                <img src="assets/collections/Justine/untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Justine</p>
+                    <p>[8]</p>
+                </div>
+            </a>
+            <a href="lily-yeung.html" class="collection-container">
+                <img src="assets/collections/Lily Yeung/untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Lily Yeung</p>
+                    <p>[4]</p>
+                </div>
+            </a>
+            <a href="sophie-groom.html" class="collection-container">
+                <img src="assets/collections/Sophie Groom/untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Sophie Groom</p>
+                    <p>[4]</p>
+                </div>
+            </a>
+            <a href="tati.html" class="collection-container">
+                <img src="assets/collections/Tati/untitled.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Tati</p>
+                    <p>[1]</p>
+                </div>
+            </a>
+            <a href="viviana-uchitel.html" class="collection-container">
+                <img src="assets/collections/Viviana Uchitel/untitled1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Viviana Uchitel</p>
+                    <p>[9]</p>
+                </div>
+            </a>
+            <a href="wonderland-magazine.html" class="collection-container">
+                <img src="assets/collections/Wonderland Magazine/Emily Rudd1.jpg" alt="">
+                <div class="collection-label-container">
+                    <p>Wonderland Magazine</p>
+                    <p>[3]</p>
+                </div>
+            </a>
+
+
+
+
+
+
+        </div>
+        <div id="index-container" class="size-max">
+            <div class="list-container">
+                <div class="divider">
+                    <p>Professional</p>
+                </div>
+                <a href="cake-magazine.html" class="list-item index-item">
+                    <p>Cake Magazine</p>
+                    <p>[8]</p>
+                </a>
+                <a href="contributor-magazine.html" class="list-item index-item">
+                    <p>Contributor Magazine</p>
+                    <p>[4]</p>
+                </a>
+                <a href="danbi.html" class="list-item index-item">
+                    <p>Danbi</p>
+                    <p>[9]</p>
+                </a>
+                <a href="daze-denim.html" class="list-item index-item">
+                    <p>Daze Denim</p>
+                    <p>[4]</p>
+                </a>
+                <a href="viviana-uchitel.html" class="list-item index-item">
+                    <p>Viviana Uchitel</p>
+                    <p>[9]</p>
+                </a>
+                <a href="wonderland-magazine.html" class="list-item index-item">
+                    <p>Wonderland Magazine</p>
+                    <p>[3]</p>
+                </a>
+            </div>
+            <div class="list-container">
+                <div class="divider">
+                    <p>Personal</p>
+                </div>
+                <a href="a-penchant-for-reverie.html" class="list-item index-item">
+                    <p>A Penchant for Reverie</p>
+                    <p>[6]</p>
+                </a>
+                <a href="aiyi.html" class="list-item index-item">
+                    <p>Aiyi</p>
+                    <p>[3]</p>
+                </a>
+                <a href="aiyi-x-jasmine-amini.html" class="list-item index-item">
+                    <p>Aiyi x Jasmine Amini</p>
+                    <p>[6]</p>
+                </a>
+                <a href="alyssa.html" class="list-item index-item">
+                    <p>Alyssa</p>
+                    <p>[3]</p>
+                </a>
+                <a href="ariel.html" class="list-item index-item">
+                    <p>Ariel</p>
+                    <p>[1]</p>
+                </a>
+                <a href="ashara.html" class="list-item index-item">
+                    <p>Ashara</p>
+                    <p>[4]</p>
+                </a>
+                <a href="bianca.html" class="list-item index-item">
+                    <p>Bianca</p>
+                    <p>[1]</p>
+                </a>
+                <a href="justine.html" class="list-item index-item">
+                    <p>Justine</p>
+                    <p>[8]</p>
+                </a>
+                <a href="lily-yeung.html" class="list-item index-item">
+                    <p>Lily Yeung</p>
+                    <p>[4]</p>
+                </a>
+                <a href="sophie-groom.html" class="list-item index-item">
+                    <p>Sophie Groom</p>
+                    <p>[4]</p>
+                </a>
+                <a href="tati.html" class="list-item index-item">
+                    <p>Tati</p>
+                    <p>[1]</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/load.js"></script>
+    <script src="scripts/toggle.js"></script>
+    <script src="scripts/fade-in.js" defer></script>
+</body>
+
+</html>
