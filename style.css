@@ -46,6 +46,10 @@ a {
     gap: 12px;
 }
 
+.toggle-button {
+    color: black;
+}
+
 #dynamic-header {
     margin: 0px 16px;
     padding: 16px 0px;
