@@ -22,7 +22,7 @@ a {
     margin-top: 12vh;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 4px;
     display: none;
 }
 
@@ -36,18 +36,29 @@ a {
 .collections-toggle-container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; */
     padding: 8px 0px;
     width: 100%;
 }
 
 .toggle-container {
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .toggle-button {
     color: black;
+    border: 1px solid lightgrey;
+    padding: 1px 4px;
+}
+
+.basic-container {
+    display: flex;
+    gap: 20px;
+}
+
+.offset-container {
+    padding-left: 12px;
 }
 
 #dynamic-header {
@@ -74,6 +85,8 @@ a {
 
 #index-container {
     display: none;
+    flex-direction: column;
+    gap: 8px;
 }
 
 button {
@@ -99,6 +112,10 @@ img {
     gap: 2px;
 }
 
+.list-container {
+    width: 100%;
+}
+
 .list-item {
     border-bottom: 1px solid lightgrey;
     padding: 8px 0px;
@@ -106,7 +123,7 @@ img {
 }
 
 .index-item {
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .index-item:hover {
@@ -125,6 +142,12 @@ img {
 
 .size-max {
     max-width: 100%;
+}
+
+.collection-label-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
 }
 
 /* Collection Pages */
@@ -187,6 +210,13 @@ img {
         gap: 8px;
         row-gap: 40px;
     }
+
+    #index-container {
+        display: none;
+        flex-direction: row;
+        gap: 16px;
+        width: 100%;
+    }
 }
 
 
@@ -197,6 +227,10 @@ img {
         grid-template-columns: repeat(6, 1fr);
         gap: 12px;
         row-gap: 40px;
+    }
+
+    #index-container {
+        width: 50%;
     }
 
     .cols3 {
@@ -210,7 +244,7 @@ img {
     }
 
     .size-max {
-        max-width: calc(40% - 4px);
+        max-width: calc((100%/6)*2 - 8px);
     }
 
     .collection-content-container {
